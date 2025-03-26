@@ -1,0 +1,17 @@
+[project]
+name = "microsoft-teams-mcp"
+version = "0.1.0"
+description = "An MCP Server with tools for Microsoft Teams chat interactions and notifications."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [ "mcp>=1.4.1", "python-dotenv", "aiohttp", "msal"]
+[[project.authors]]
+name = "John Miller"
+email = "johmil@microsoft.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+microsoft-teams-mcp = "microsoft_teams_mcp:main"
