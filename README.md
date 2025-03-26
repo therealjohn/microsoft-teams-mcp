@@ -14,7 +14,7 @@ The server implements one tool:
 
 ## Configuration
 
-This requires a Microsoft Teams bot to use for the notifications. You can use my example Notification Bot created with Teams Toolkit.
+This requires a Microsoft Teams bot to use for the notifications. You can use [my example Notification Bot](https://github.com/therealjohn/TeamsNotificationBotMCP) created with [Teams Toolkit](https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/teams-toolkit-fundamentals).
 
 The server requires the following environment variables to be set:
 
