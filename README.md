@@ -2,6 +2,9 @@
 
 An MCP Server with a tool for Microsoft Teams chat notifications.
 
+> [!WARNING]  
+> This is provided for reference and wasn't tested with MCP clients other than VS Code.
+
 ## Components
 
 ### Tools
